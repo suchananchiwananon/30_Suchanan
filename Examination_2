@@ -10,4 +10,4 @@
 price = float(input("ราคา: "))
 discount = float(input("ส่วนลด: "))
 net_price = price - discount
-print(f"ราคา:{net_price}บาท")
+print(f"ราคา:{net_price} บาท")
