@@ -6,6 +6,12 @@
 # ==========================================
 
 # เขียนโค้ดต่อจากนี้
-quantity = int(input())
-
+quantity = int(input("จำนวนสมุด: "))
+price = int("20")
+total = quantity * price
+if quantity > 5:
+ net_price = total - 10
+ print(f"ราคารวม: {net_price} บาท")
+else:
+ print(f"ราคารวม: {total} บาท")
 
