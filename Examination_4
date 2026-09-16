@@ -9,6 +9,7 @@
 
 # เขียนโค้ดต่อจากนี้
 score = int(input("คะแนน: "))
+
 if score >= 80:
  print("A")
 elif score >= 60:
